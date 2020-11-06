@@ -4,3 +4,6 @@ Exercises from the Master Ruby course @ Udemy
 ## Project 1
 * Prints text in three different ways
 * Prints age in three different formats
+
+## Project 2
+* Basic variables assignment
