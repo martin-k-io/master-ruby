@@ -11,3 +11,4 @@ Exercises from the Master Ruby course @ Udemy
 * String concatenation
 * String interpolation
 * String manipulation
+* String comparisons
