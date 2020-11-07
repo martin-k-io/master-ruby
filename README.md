@@ -7,3 +7,7 @@ Exercises from the Master Ruby course @ Udemy
 
 ## Project 2
 * Basic variables assignment
+* Taking input from console
+* String concatenation
+* String interpolation
+* String manipulation
