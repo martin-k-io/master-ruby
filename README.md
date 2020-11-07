@@ -12,6 +12,7 @@ Exercises from the Master Ruby course @ Udemy
 * String interpolation
 * String manipulation
 * String comparisons
+* Finding string
 
 ## Project 3
 * Logic comparison
