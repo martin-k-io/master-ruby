@@ -13,6 +13,8 @@ Exercises from the Master Ruby course @ Udemy
 * String manipulation
 * String comparisons
 * Finding string
+* Integers & Floats
+* Casting strings into numbers
 
 ## Project 3
 * Logic comparison
