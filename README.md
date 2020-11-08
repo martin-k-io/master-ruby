@@ -15,6 +15,8 @@ Exercises from the Master Ruby course @ Udemy
 * Finding string
 * Integers & Floats
 * Casting strings into numbers
+* Getting numerical input
+* Random numbers
 
 ## Project 3
 * Logic comparison
