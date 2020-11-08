@@ -18,9 +18,9 @@ Exercises from the Master Ruby course @ Udemy
 * Getting numerical input
 * Random numbers
 * Codealong - Guess the number Game
-
-## Project 3
 * Logic comparison
 * Numeric comparison
 * Branching logic - if-elsif
 * Branching logic - case
+
+## Project 3
