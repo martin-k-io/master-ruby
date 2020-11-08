@@ -17,6 +17,7 @@ Exercises from the Master Ruby course @ Udemy
 * Casting strings into numbers
 * Getting numerical input
 * Random numbers
+* Codealong - Guess the number Game
 
 ## Project 3
 * Logic comparison
