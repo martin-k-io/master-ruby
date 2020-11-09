@@ -24,3 +24,6 @@ Exercises from the Master Ruby course @ Udemy
 * Branching logic - case
 
 ## Project 3
+* Methods
+* Method returns
+* If styles
