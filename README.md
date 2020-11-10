@@ -29,3 +29,4 @@ Exercises from the Master Ruby course @ Udemy
 * Method returns
 * Calling methods from other methods
 * Data Structures - Arrays & Hashes
+* Loops
