@@ -2,7 +2,7 @@ words = ["the", "quick", "the", "brown", "fox"]
 
 p words
 
-# Convinience methods (ot syntax sugar)
+# Convenience methods (ot syntax sugar)
 puts words.first
 puts words.last
 
@@ -15,4 +15,5 @@ p words
 p words.take(3)
 
 # Returns an error rather than failing silently(Returning nil)
+# if there's no item with index 8
 puts words.fetch(8)
