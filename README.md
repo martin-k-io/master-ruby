@@ -30,4 +30,5 @@ Exercises from the Master Ruby course @ Udemy
 * Calling methods from other methods
 * Data Structures - Arrays & Hashes
 * Loops
-* Contacts - codealong
+* Codealong - Contacts list
+* Bubble Sort Algorithm
