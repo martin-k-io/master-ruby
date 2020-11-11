@@ -33,3 +33,8 @@ Exercises from the Master Ruby course @ Udemy
 * Codealong - Contacts list
 * Bubble Sort Algorithm
 * While, For, Loop, Next
+
+## Project 4
+* Iterations
+* Range iterations
+* Enumerators (Enumerable module)
