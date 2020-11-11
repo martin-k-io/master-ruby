@@ -32,3 +32,4 @@ Exercises from the Master Ruby course @ Udemy
 * Loops
 * Codealong - Contacts list
 * Bubble Sort Algorithm
+* While, For, Loop, Next
