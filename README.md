@@ -38,3 +38,4 @@ Exercises from the Master Ruby course @ Udemy
 * Iterations
 * Range iterations
 * Enumerators (Enumerable module)
+* Select, Map, Reject on Arrays & Hashes
