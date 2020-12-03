@@ -10,7 +10,7 @@ job = {
 }
 
 # Concatenates/Merges two hashes
-# Replaces the duplicate key value pari with the second
+# Replaces the duplicate key value pair with the second
 # pair's value
 
 p person.merge(job)

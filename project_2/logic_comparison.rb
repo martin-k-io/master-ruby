@@ -10,7 +10,7 @@ puts true || false
 
 
 # Checks left-to-right
-# If true found, retusn true straight away
+# If true found, returns true straight away
 puts true or false
 
 # Returns false
