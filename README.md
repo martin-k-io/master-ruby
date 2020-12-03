@@ -41,3 +41,7 @@ Exercises from the Master Ruby course @ Udemy
 * Select, Map, Reject on Arrays & Hashes
 * Recursion
 * Codealong - Product Filter
+* Students Filter
+
+## Project 5
+* File operations
