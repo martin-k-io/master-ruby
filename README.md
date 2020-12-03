@@ -39,3 +39,5 @@ Exercises from the Master Ruby course @ Udemy
 * Range iterations
 * Enumerators (Enumerable module)
 * Select, Map, Reject on Arrays & Hashes
+* Recursion
+* Codealong - Product Filter
