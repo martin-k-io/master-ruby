@@ -51,3 +51,4 @@ Exercises from the Master Ruby course @ Udemy
 * File checks
 * Directories
 * Require ruby files
+* Codealong - TODO list
