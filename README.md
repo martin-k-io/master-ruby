@@ -44,4 +44,6 @@ Exercises from the Master Ruby course @ Udemy
 * Students Filter
 
 ## Project 5
-* File operations
+* File operations - file modes
+* File reading
+* File writing
