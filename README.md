@@ -48,3 +48,4 @@ Exercises from the Master Ruby course @ Udemy
 * File reading
 * File writing
 * CSV files (Comma Separated Values)
+* File checks
