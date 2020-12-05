@@ -47,3 +47,4 @@ Exercises from the Master Ruby course @ Udemy
 * File operations - file modes
 * File reading
 * File writing
+* CSV files (Comma Separated Values)
