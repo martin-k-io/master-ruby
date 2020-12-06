@@ -54,3 +54,5 @@ Exercises from the Master Ruby course @ Udemy
 * Codealong - TODO list
 
 ## Section 6
+* Working with classes
+* Classes, Objects, Instance variables
