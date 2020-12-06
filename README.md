@@ -57,3 +57,4 @@ Exercises from the Master Ruby course @ Udemy
 * Working with classes
 * Classes, Objects, Instance variables
 * Inheritance and overriding methods
+* Class methods
