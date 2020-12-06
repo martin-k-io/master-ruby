@@ -58,3 +58,4 @@ Exercises from the Master Ruby course @ Udemy
 * Classes, Objects, Instance variables
 * Inheritance and overriding methods
 * Class methods
+* Modules
