@@ -1,11 +1,11 @@
 # master-ruby
 Exercises from the Master Ruby course @ Udemy
 
-## Project 1
+## Section 1
 * Prints text in three different ways
 * Prints age in three different formats
 
-## Project 2
+## Section 2
 * Basic variables assignment
 * Taking input from console
 * String concatenation
@@ -23,7 +23,7 @@ Exercises from the Master Ruby course @ Udemy
 * Branching logic - if-elsif
 * Branching logic - case
 
-## Project 3
+## Section 3
 * If styles
 * Methods
 * Method returns
@@ -34,7 +34,7 @@ Exercises from the Master Ruby course @ Udemy
 * Bubble Sort Algorithm
 * While, For, Loop, Next
 
-## Project 4
+## Section 4
 * Iterations
 * Range iterations
 * Enumerators (Enumerable module)
@@ -43,7 +43,7 @@ Exercises from the Master Ruby course @ Udemy
 * Codealong - Product Filter
 * Students Filter
 
-## Project 5
+## Section 5
 * File operations - file modes
 * File reading
 * File writing
@@ -52,3 +52,5 @@ Exercises from the Master Ruby course @ Udemy
 * Directories
 * Require ruby files
 * Codealong - TODO list
+
+## Section 6
