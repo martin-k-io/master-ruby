@@ -1,11 +1,11 @@
 # master-ruby
 Exercises from the Master Ruby course @ Udemy
 
-## Section 1
+## Section 1 - Programming in Ruby
 * Prints text in three different ways
 * Prints age in three different formats
 
-## Section 2
+## Section 2 - Strings and Numbers
 * Basic variables assignment
 * Taking input from console
 * String concatenation
@@ -23,7 +23,7 @@ Exercises from the Master Ruby course @ Udemy
 * Branching logic - if-elsif
 * Branching logic - case
 
-## Section 3
+## Section 3 - Methods and Data
 * If styles
 * Methods
 * Method returns
@@ -34,7 +34,7 @@ Exercises from the Master Ruby course @ Udemy
 * Bubble Sort Algorithm
 * While, For, Loop, Next
 
-## Section 4
+## Section 4 - Deep Dive Into Iteration and Blocks
 * Iterations
 * Range iterations
 * Enumerators (Enumerable module)
@@ -43,7 +43,7 @@ Exercises from the Master Ruby course @ Udemy
 * Codealong - Product Filter
 * Students Filter
 
-## Section 5
+## Section 5 - Working with Files
 * File operations - file modes
 * File reading
 * File writing
@@ -53,7 +53,7 @@ Exercises from the Master Ruby course @ Udemy
 * Require ruby files
 * Codealong - TODO list
 
-## Section 6
+## Section 6 - Object Oriented Programming
 * Working with classes
 * Classes, Objects, Instance variables
 * Inheritance and overriding methods
@@ -61,3 +61,6 @@ Exercises from the Master Ruby course @ Udemy
 * Modules
 * Composition vs Inheritance
 * Codealong - Area Shapes using inheritance
+* Binary Tree
+
+## Section 7 - Object Mapping
