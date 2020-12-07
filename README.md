@@ -65,3 +65,5 @@ Exercises from the Master Ruby course @ Udemy
 
 ## Section 7 - Object Mapping
 * Model classes
+* Domain modeling
+* Validator methods
