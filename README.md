@@ -64,3 +64,4 @@ Exercises from the Master Ruby course @ Udemy
 * Binary Tree
 
 ## Section 7 - Object Mapping
+* Model classes
