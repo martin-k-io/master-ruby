@@ -60,3 +60,4 @@ Exercises from the Master Ruby course @ Udemy
 * Class methods
 * Modules
 * Composition vs Inheritance
+* Codealong - Area Shapes using inheritance
