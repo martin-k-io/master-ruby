@@ -59,3 +59,4 @@ Exercises from the Master Ruby course @ Udemy
 * Inheritance and overriding methods
 * Class methods
 * Modules
+* Composition vs Inheritance
