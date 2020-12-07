@@ -68,3 +68,4 @@ Exercises from the Master Ruby course @ Udemy
 * Domain modeling
 * Validator methods
 * Serialization
+* CRUD - CREATE, READ, UPDATE, DELETE
