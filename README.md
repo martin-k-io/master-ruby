@@ -67,3 +67,4 @@ Exercises from the Master Ruby course @ Udemy
 * Model classes
 * Domain modeling
 * Validator methods
+* Serialization
