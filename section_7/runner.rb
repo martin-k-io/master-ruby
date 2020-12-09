@@ -6,3 +6,5 @@ person1 = Person.new("Bob", "Thimpson")
 #p person1.to_csv
 
 puts person1.save
+
+p Person.read(9643)

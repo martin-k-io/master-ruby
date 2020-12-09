@@ -3,10 +3,10 @@ require 'csv'
 class Person
   attr_accessor :first_name, :last_name, :person_id
 
-  def initialize(first_name, last_name)
+  def initialize(first_name, last_name, person_id = rand(1000..9999))
     @first_name = first_name
     @last_name  = last_name
-    @person_id  = rand(1000..9999)
+    @person_id  = person_id
   end
 
   def valid?
@@ -26,18 +26,21 @@ class Person
     end
   end
 
-  def show
+  # class method
+  def self.read(person_id)
     filename = "#{person_id}-file.csv"
 
     if File.exist?(filename)
-      File.open(filename, 'r') do
-        puts file.read
+      File.open(filename, 'r') do |file|
+        record = CSV.parse(file.read)[0]
+        return Person.new(record[0], record[1], person_id)
       end
     else
-      puts "The record does not exist"
+      puts "The person record does not exist"
     end
   end
 
+  # instance method
   def  save
     filename = "#{person_id}-file.csv"
 
