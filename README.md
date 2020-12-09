@@ -69,3 +69,4 @@ Exercises from the Master Ruby course @ Udemy
 * Validator methods
 * Serialization
 * CRUD - CREATE, READ, UPDATE, DELETE
+* Codealong - Corporate Directory
