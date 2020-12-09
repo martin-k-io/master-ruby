@@ -29,7 +29,7 @@ class Person
   # class method
   def self.read(person_id)
     filename = Person.filename(person_id)
-    
+
     if File.exist?(filename)
       File.open(filename, 'r') do |file|
         record = CSV.parse(file.read)[0]
@@ -37,6 +37,19 @@ class Person
       end
     else
       puts "The person record does not exist"
+    end
+  end
+
+  def self.destroy(person_id)
+    filename = Person.filename(person_id)
+
+    if File.exist?(filename)
+      File.delete(filename)
+      puts "The file #{filename} was destroyed!"
+      return true
+    else
+      puts "File does not exist"
+      return false
     end
   end
 

@@ -1,22 +1,12 @@
 require_relative "person.rb"
 
-#person1 = Person.new("Bob", "Thimpson")
+person = Person.new("Lisa", "Jones")
 
-#puts person1.valid?
-#p person1.to_csv
+person.create
 
-#puts person1.save
-
-#p Person.read(9643)
-
-#person = Person.read(9624)
-#person.last_name = "Gordon"
-
-#puts person.update
-
-#person = Person.new("Lisa", "Jones")
-
-#p person.create
-person = Person.read(4335)
 person.last_name = "Roberts"
-p person.update
+person.update
+
+person = Person.read(person.person_id)
+
+#Person.destroy(person.person_id)
