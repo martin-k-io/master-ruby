@@ -26,9 +26,22 @@ class Person
     end
   end
 
+  def show
+    filename = "#{person_id}-file.csv"
+
+    if File.exist?(filename)
+      File.open(filename, 'r') do
+        puts file.read
+      end
+    else
+      puts "The record does not exist"
+    end
+  end
+
   def  save
     filename = "#{person_id}-file.csv"
-    save_file = CSV.open(filename, "w") do |csv|
+
+    save_file = CSV.open(filename, 'w') do |csv|
       csv << [first_name, last_name]
     end
 
@@ -36,11 +49,3 @@ class Person
     return !save_file.nil?
   end
 end
-
-person1 = Person.new("Bob", "Thimpson")
-
-
-#puts person1.valid?
-#p person1.to_csv
-
-puts person1.save
