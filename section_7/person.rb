@@ -16,8 +16,14 @@ class Person
   end
 
   def valid?
-    (!first_name.nil? && first_name.length > 0) &&
-    (!last_name.nil? && last_name.length > 0)
+
+    if (!first_name.nil? && first_name.length > 0) &&
+      (!last_name.nil? && last_name.length > 0)
+      return true
+    else
+      print "Person attributes not valid."
+      return false
+    end
   end
 
   def to_csv
@@ -54,6 +60,8 @@ class Person
   end
 
   def create
+    return false unless valid?
+
     if !File.exist?(filename)
       save
     else
@@ -63,6 +71,8 @@ class Person
   end
 
   def update
+    return false unless valid?
+
     if File.exist?(filename)
       save
       puts "File #{filename} updated for employee with ID #{person_id}"
@@ -74,6 +84,10 @@ class Person
 
   # instance method
   def  save
+    unless valid?
+      puts " Cannot save file."
+    end
+
     save_file = CSV.open(filename, 'w') do |csv|
       csv << [first_name, last_name]
     end
