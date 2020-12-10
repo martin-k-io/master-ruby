@@ -1,6 +1,6 @@
 require 'httparty'
 require 'nokogiri'
-require 'pp'
+require 'awesome_print'
 
 def car_shopper
   response = HTTParty.get('https://code.evgenyrahman.com/rubycourse/carlist.html')
@@ -10,16 +10,21 @@ def car_shopper
   car_listings = parsed_html.css('.card.car')
   #pp car_listings.first
 
-  car_listings.each do |each_car|
-    car = {
+  cars = car_listings.map do |each_car|
+    {
       make: each_car.css('.make').text,
       year: each_car.css('.year').text,
       price: each_car.css('.price').text,
       rating: each_car.css('.star.rating').attribute("data-rating").value
     }
-
-    pp car
   end
+
+  ap cars
+
+  File.open("car_listing.json", "wb") do |f|
+    f << cars.to_json
+  end
+
 end
 
 car_shopper
