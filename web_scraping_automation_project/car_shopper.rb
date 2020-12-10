@@ -1,5 +1,6 @@
 require 'httparty'
 require 'nokogiri'
+require 'pp'
 
 def car_shopper
   response = HTTParty.get('https://code.evgenyrahman.com/rubycourse/carlist.html')
@@ -8,7 +9,7 @@ def car_shopper
   # Returns a collection of all card car classes
   car_listings = parsed_html.css('.card.car')
 
-  p car_listings.length
+  pp car_listings.first
 
   puts "Welcome to the card shopper!"
 
