@@ -1,8 +1,7 @@
 require 'csv'
 
 class Person
-  attr_accessor :first_name, :last_name
-  attr_accessor :person_id, :filename
+  attr_accessor :first_name, :last_name, :person_id, :filename
 
   def initialize(first_name, last_name, person_id = rand(1000..9999))
     @first_name = first_name
@@ -16,13 +15,12 @@ class Person
   end
 
   def valid?
-
     if (!first_name.nil? && first_name.length > 0) &&
-      (!last_name.nil? && last_name.length > 0)
-      return true
+       (!last_name.nil? && last_name.length > 0)
+      true
     else
-      print "Person attributes not valid."
-      return false
+      print 'Person attributes not valid.'
+      false
     end
   end
 
@@ -42,7 +40,7 @@ class Person
         return Person.new(record[0], record[1], person_id)
       end
     else
-      puts "The person record does not exist"
+      puts 'The person record does not exist'
     end
   end
 
@@ -52,10 +50,10 @@ class Person
     if File.exist?(filename)
       File.delete(filename)
       puts "The file #{filename} was destroyed!"
-      return true
+      true
     else
-      puts "File does not exist"
-      return false
+      puts 'File does not exist'
+      false
     end
   end
 
@@ -66,7 +64,7 @@ class Person
       save
     else
       puts "Cannot create file. File #{filename} already exists for #{person_id}"
-      return false
+      false
     end
   end
 
@@ -77,28 +75,24 @@ class Person
       save
       puts "File #{filename} updated for employee with ID #{person_id}"
     else
-      puts "File does not exist, update cannot be performed"
-      return false
+      puts 'File does not exist, update cannot be performed'
+      false
     end
   end
 
   # instance method
-  def  save
-    unless valid?
-      puts " Cannot save file."
-    end
+  def save
+    puts ' Cannot save file.' unless valid?
 
     save_file = CSV.open(filename, 'w') do |csv|
       csv << [first_name, last_name]
     end
 
     puts "File #{filename} saved for employee with ID #{person_id}"
-    return !save_file.nil?
+    !save_file.nil?
   end
 
-  def walk
-  end
+  def walk; end
 
-  def talk
-  end
+  def talk; end
 end
