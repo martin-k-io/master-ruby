@@ -19,6 +19,9 @@ def parse_log
     [email, browser]
   end
 
+  cross_referenced_data = user_data.map do |line|
+    cross_reference(line)
+  end
   # puts user_data
 end
 
@@ -31,11 +34,11 @@ def determine_browser(user_agent)
 end
 
 def extract_email(log_line)
-  email = log_line.match(%r{signup\?email=([a-zA-Z0-9@.]*) HTTP/})
+  email = log_line.match(/signup\?email=([a-zA-Z0-9@.]*) HTTP\//)
   email.captures.first
 end
 
-def cross_reference(_log_line)
+def cross_reference(log_line)
   users = CSV.open('data/users.csv') do |csv|
     csv.readlines
   end
@@ -53,8 +56,19 @@ def cross_reference(_log_line)
 
     line
   end
-end
 
-cross_reference('')
+  matching_users = users.select do |line|
+    log_line[0] == line[2]
+  end
+
+  matching_user = matching_users.first
+
+  {
+    first_name: matching_user[1],
+    last_name: matching_user[0],
+    email: matching_user[2],
+    browser: log_line[1]
+  }
+end
 
 pp parse_log
