@@ -70,3 +70,5 @@ Exercises from the Master Ruby course @ Udemy
 * Serialization
 * CRUD - CREATE, READ, UPDATE, DELETE
 * Codealong - Corporate Directory
+
+## Project - Web Scraping Automation
