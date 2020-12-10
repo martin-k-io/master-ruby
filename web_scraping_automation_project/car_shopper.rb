@@ -11,6 +11,14 @@ def car_shopper
 
   pp car_listings.first
 
+  car_listings.each do |each_car|
+    pp each_car.css('.make').text
+  end
+
+
+
+
+
   puts "Welcome to the card shopper!"
 
 end
